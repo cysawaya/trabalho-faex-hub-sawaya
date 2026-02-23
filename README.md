@@ -6,8 +6,6 @@ Trabalho avaliativo desenvolvido com React + TypeScript utilizando React Router 
 
 Implementar rotas e páginas de Login e Cadastro seguindo layout do Figma, com organização adequada de componentes e estilos.
 
----
-
 ##  Tecnologias Utilizadas
 
 - React
@@ -16,18 +14,26 @@ Implementar rotas e páginas de Login e Cadastro seguindo layout do Figma, com o
 - Styled Components
 - Vite
 
----
-
 ##  Estrutura do Projeto
+
 src/
+
 ├── components/
+
 │ ├── Logins/
+
 │ │ ├── Login.tsx
+
 │ │ └── Login.Styles.ts
+
 │ └── Cadastro/
+
 │ ├── Cadastro.tsx
+
 │ └── Cadastro.Styles.ts
+
 ├── App.tsx
+
 └── main.tsx
 
 ##  Rotas Implementadas
@@ -38,19 +44,13 @@ src/
 | `/login` | Página de Login |
 | `/cadastro` | Página de Cadastro |
 
----
-
 ##  Navegação
 
 As páginas de Login e Cadastro possuem navegação entre si utilizando Link do React Router.
 
----
-
 ## Estilização
 
 Toda a estilização foi feita utilizando Styled Components, sem uso de CSS externo ou Tailwind.
-
----
 
 ##  Autora
 
